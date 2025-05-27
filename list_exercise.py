@@ -1,0 +1,14 @@
+#exercise
+trainees=["John",[2,["James","Mary"]]]
+print(trainees[1][0])
+print(trainees[1][1][0])
+print(trainees[1][1][1])
+trainees.append(56)
+print(trainees)
+trainees[1][1].insert(1,"Mike")
+print(trainees)
+trainees[1][0]=8
+print(trainees)
+trainees.remove("John")
+print(trainees)
+print(trainees[0][1].pop)
